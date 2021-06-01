@@ -1,0 +1,19 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0,0.8),rgba(0, 0, 0, 0.8)),url(img/cryg/c1.jpg);
+}
+.gallery{
+    margin: 10px 50px;
+}
+
+.gallery img {
+    transition: 1s;
+    padding: 15px;
+    width:30%;
+    height: 240px;
+   
+    
+}
+.gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.2);
+}
